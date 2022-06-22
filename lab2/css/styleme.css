@@ -16,11 +16,16 @@ p > span {
     color: #8affe5;
 }
 
-img {
+.moodphotos {
     width: 160px;
     height: 100px;
 }
-.italicwords{
+
+.italicwords {
     font-style: italic;
     text-align: center;
+}
+.validatorphotos{
+    width: 100px;
+    height: 35px;
 }
