@@ -1,0 +1,26 @@
+body {
+    background-color: #173937;
+    color: white;
+    font-family: "Book Antiqua", serif;
+}
+
+h1, h2 {
+    color: #b487fc;
+}
+
+p > span {
+    color: #e5d394;
+}
+
+.aquacolor {
+    color: #8affe5;
+}
+
+img {
+    width: 160px;
+    height: 100px;
+}
+.italicwords{
+    font-style: italic;
+    text-align: center;
+}
