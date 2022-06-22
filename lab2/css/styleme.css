@@ -4,16 +4,26 @@ body {
     font-family: "Book Antiqua", serif;
 }
 
-h1, h2 {
+.paragraph{
     color: #b487fc;
+    font-size: 30px;
 }
-
+.paragraph::first-letter{
+    font-size: 45px;
+}
 p > span {
     color: #e5d394;
 }
 
-.aquacolor {
-    color: #8affe5;
+.imdbstyle {
+    color: #ff6025;
+}
+.imdbstyle:link{
+    text-decoration: none;
+}
+.imdbstyle:hover{
+    color: #fff78b;
+    text-decoration: underline;
 }
 
 .moodphotos {
@@ -28,4 +38,19 @@ p > span {
 .validatorphotos{
     width: 100px;
     height: 35px;
+}
+.orderedlist{
+    list-style-type: decimal;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.movieinfo{
+    color: #fc8eb7;
+    list-style-type: none;
+    margin-left: -40px;
+}
+li li{
+    font-family: "Courier New", serif;
+    color: white;
+    list-style-type: none;
 }
