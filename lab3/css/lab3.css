@@ -1,0 +1,32 @@
+a{
+    font-family: Century, serif;
+    font-size: 20px;
+    display: inline;
+    margin-left: 25em;
+    margin-top: 2em;
+
+}
+#logo{
+    width: 150px;
+    height: 100px;
+}
+.button {
+    background-color: #fff3cd; /* Green */
+    display: inline;
+    margin-top: 2em;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    font-family: "Times New Roman", serif;
+    margin-right: 1.5em;
+}
+#productlist{
+    margin-left: 1em;
+}
+#cartlist{
+    margin-left: 1em;
+}
