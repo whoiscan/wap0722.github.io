@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./css/lab4.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div>
+    <ul>
+        <li><a>Workshop Registration</a></li>
+        <li class="dropdown">
+            <a class="dropbtn">More Actions 🔽</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<form action="#">
+    <div class="box">
+        <div class="leftItems">
+            <div><a href="#"> Register now while seats are available!</a></div>
+            <div class="box">
+                <div class="leftItems required">First Name</div>
+                <div class="rightItems">
+                    <label>
+                        <input type="text" name="firstname" required/>
+                    </label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems required">Last Name</div>
+                <div class="rightItems">
+                    <label>
+                        <input type="text" name="lastname" required/>
+                    </label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems required">Company/Institution</div>
+                <div class="rightItems">
+                    <label>
+                        <input type="text" name="company" required/>
+                    </label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems required">Address</div>
+                <div class="rightItems">
+                    <label for="address"></label>
+                    <textarea id="address" name="address" cols="20" rows="6" required>
+              </textarea>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems">City</div>
+                <div class="rightItems"><label>
+                    <input type="text" name="city"/>
+                </label></div>
+            </div>
+            <div class="box">
+                <div class="leftItems">State/Province/Region</div>
+                <div class="rightItems">
+                    <label>
+                        <select name="state">
+                            <option selected>-Select-</option>
+                            <option>New Jersey</option>
+                            <option>Texas</option>
+                            <option>California</option>
+                            <option>Iowa</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems">Country</div>
+                <div class="rightItems">
+                    <label>
+                        <select name="country">
+                            <option selected>-Select-</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                            <option>Germany</option>
+                            <option>Italy</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems required">Email</div>
+                <div class="rightItems"><label>
+                    <input type="text" name="email" required/>
+                </label></div>
+            </div>
+            <div class="box">
+                <div class="leftItems required">Phone Number</div>
+                <div class="rightItems"><label>
+                    <input type="text" name="phone" required/>
+                </label></div>
+            </div>
+        </div>
+        <div class="rightItems">
+            <br/>
+            <div class="box"><a href="#">Lunch</a></div>
+
+            <div class="box">
+                <div class="leftItems">Meal Preference</div>
+                <div class="rightItems">
+                    <label>
+                        <select name="country">
+                            <option selected>Vegetarian</option>
+                            <option>Not Vegetarian</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems"><a href="#">Payment Details</a></div>
+            </div>
+            <div class="box">
+                <div class="leftItems">Payment Mode</div>
+                <div class="rightItems">
+                    <div><label>
+                        <input type="radio" name="payment"/>
+                    </label> Cash
+                    </div>
+                    <div><label>
+                        <input type="radio" name="payment"/>
+                    </label> Cheque
+                    </div>
+                    <div><label>
+                        <input type="radio" name="payment"/>
+                    </label> Demand Draft
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="leftItems">DD/Cheque No.</div>
+                <div class="rightItems"><label>
+                    <input type="text" name="cheque"/>
+                </label></div>
+            </div>
+            <div class="box">
+                <div class="leftItems">Drawn on (Bank Name)</div>
+                <div class="rightItems"><label>
+                    <input type="text" name="drawn"/>
+                </label></div>
+            </div>
+            <div class="box">
+                <div class="leftItems">Payable at</div>
+                <div class="rightItems"><label>
+                    <input type="text" name="payable"/>
+                </label></div>
+            </div>
+        </div>
+    </div>
+    <div class="actions">
+        <input type="submit"/>
+        <input type="reset"/>
+    </div>
+</form>
+<p>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwhoiscan.github.io%2Fwap0722.github.io%2Flab2%2Faboutme.html">
+        <img class="validatorphotos" src="./assets/validator.png" alt="Html Validator">
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fwhoiscan.github.io%2Fwap0722.github.io%2Flab2%2Faboutme.html&usermedium=all&vextwarning=&warning=1">
+        <img class="validatorphotos" src="./assets/css_checker.png" alt="Css Validator">
+    </a>
+</p>
+</body>
+</html>

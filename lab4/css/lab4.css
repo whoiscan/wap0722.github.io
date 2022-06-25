@@ -1,0 +1,133 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191971;
+    font-family: Cambria, serif;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #48a4cb;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(36, 21, 99, 0.59);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #3548aa;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#regLink {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+header {
+    background-color: green;
+    height: 50px;
+}
+
+header span {
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+header select {
+    font-family: Calibri, serif;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.actions {
+    background-color: #191971;
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    width: 170px;
+    height: 30px;
+}
+
+.box {
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.leftItems {
+    width: 50%;
+    font-family: Cambria, serif;
+    font-weight: bold;
+}
+
+.rightItems {
+    width: 50%;
+}
+
+.required::after {
+    content: "*";
+    color: #ff0000;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 90px;
+    border-color: white;
+    font-family: Cambria, serif;
+}
+
+input[type="reset"] {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 90px;
+    border-color: white;
+    font-family: Cambria, serif;
+}
+.validatorphotos{
+    width: 100px;
+    height: 35px;
+}

@@ -1,4 +1,4 @@
-a{
+#welcome{
     font-family: Century, serif;
     font-size: 20px;
     display: inline;
@@ -11,9 +11,9 @@ a{
     height: 100px;
 }
 .button {
-    background-color: #fff3cd; /* Green */
+    background-color: #fff3cd;
     display: inline;
-    margin-top: 2em;
+
     border: none;
     color: black;
     padding: 15px 32px;
@@ -29,4 +29,8 @@ a{
 }
 #cartlist{
     margin-left: 1em;
+}
+.validatorphotos{
+    width: 100px;
+    height: 35px;
 }
