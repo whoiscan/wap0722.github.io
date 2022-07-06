@@ -1,0 +1,26 @@
+1) setImmediate() is designed to execute a script once the current Poll phase completes, while
+setTimeout() schedules a callback function to be run after a minimum threshold in ms has elapsed. If we pass 0 to setTimeout(),
+there's no additional enforced delay before its execution, and it is placed on into the timer queue during the next loop.
+Since in setImmediate() the check queue occurs later than the timer queue, setImmediate() will be slower than setTimeout() 0.
+
+2) process.nextTick() fires immediately on the same phase
+while setImmediate() fires on the following iteration or 'tick' of the event loop
+
+    setTimeout(() => {
+        console.info('4');
+    }, 10);
+    setImmediate(() => {
+        console.info('3');
+    });
+    process.nextTick(() => {
+        console.info('2');
+    })
+    console.info('1');
+    // Output: 1 2 3 4
+
+3) For browsers there is a window object while in Node Js there is something called global.
+In the Node.js module system, each file is treated as a separate module.
+The Global objects are available in all modules.
+While in browsers, the global scope is the window object, in nodeJS,
+the global scope of a module is the module itself, so when you define a variable in the global scope of your Node.js module,
+it will be local to this module.
